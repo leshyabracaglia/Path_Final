@@ -11,10 +11,9 @@ import GoogleMaps
 import GooglePlaces
 
 class PlaceMarker: GMSMarker {
-    // 1
     let place: GooglePlace
     
-    // 2
+    //Sets the GooglePlace pin as an extension of GMSMarker
     init(place: GooglePlace) {
         self.place = place
         super.init()

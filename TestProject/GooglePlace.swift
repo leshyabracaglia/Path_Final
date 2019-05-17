@@ -13,6 +13,7 @@ import SwiftyJSON
 
 class GooglePlace {
     
+    //Attributes of a google place that we receive from API
     let placeId : String
     let name: String
     let address: String
@@ -20,31 +21,24 @@ class GooglePlace {
     let placeType: String
     let priceLevel : Int?
     let rating : Double?
-    let openNow: Bool
     var photoReference: String?
     var photo: UIImage?
-    let formattedAddress: String
     
+    //Goes through result for each place and creates a Google Place object with the correct attributs
     init(dictionary: [String: Any], acceptedTypes: [String])
     {
         let json = JSON(dictionary)
         placeId = json["place_id"].stringValue
         name = json["name"].stringValue
         address = json["vicinity"].stringValue
-        openNow = json["open_now"].boolValue
-        if(openNow){
-            NSLog("Yes")
-        }
-        NSLog("Open now %", openNow)
-        formattedAddress = json["address_components"][2]["long_name"].stringValue;
-        NSLog("formatted Address %@", formattedAddress)
-        
         priceLevel = json["price_level"].int
         rating = json["rating"].double
+        //Coordinates
         let lat = json["geometry"]["location"]["lat"].doubleValue as CLLocationDegrees
         let lng = json["geometry"]["location"]["lng"].doubleValue as CLLocationDegrees
         coordinate = CLLocationCoordinate2DMake(lat, lng)
         
+        //Getting the photo for list view
         photoReference = json["photos"][0]["photo_reference"].string
         
         var foundType = "restaurant"

@@ -25,10 +25,6 @@ class GoogleDataProvider {
     
     func fetchPlacesNearCoordinate(_ coordinate: CLLocationCoordinate2D, radius: Double, type: String, completion: @escaping PlacesCompletion) -> Void {
         var urlString = "https://maps.googleapis.com/maps/api/place/nearbysearch/json?location=\(coordinate.latitude),\(coordinate.longitude)&radius=\(radius)&rankby=prominence&sensor=true&type=\(type)&key=\(GoogleKey)"
-        // TODO: remove. Commenting this out as per Google's documentation, they only support a single optional "type"
-        // parameter
-        /*let typesString = types.count > 0 ? types.joined(separator: "|") : "food"
-        urlString += "&types=\(typesString)"*/
         urlString = urlString.addingPercentEncoding(withAllowedCharacters: CharacterSet.urlQueryAllowed) ?? urlString
         
         print(urlString)
@@ -41,15 +37,10 @@ class GoogleDataProvider {
             task.cancel()
         }
         
-        /*DispatchQueue.main.async {
-            UIApplication.shared.isNetworkActivityIndicatorVisible = true
-        }*/
-        
         placesTask = session.dataTask(with: url) { data, response, error in
             var placesArray: [GooglePlace] = []
             defer {
                 DispatchQueue.main.async {
-                    //UIApplication.shared.isNetworkActivityIndicatorVisible = false
                     completion(placesArray)
                 }
             }

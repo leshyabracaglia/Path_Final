@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  TestProject
 //
-//  Created by Sunita Reddy on 4/30/19.
+//  Created by Leshya Bracaglia, Abhi Dankar, and Roy Lee on 4/30/19.
 //  Copyright © 2019 nyu.edu. All rights reserved.
 //
 
@@ -12,9 +12,6 @@ import GooglePlaces
 
 let GoogleKey = "AIzaSyDQHPnXMRxd0axjuuLILXl-UvpN_2Hd2bc"
 let DistanceFilter = 100.0
-// Set this to true, to deal with long straight lines
-// in the polyline data causing gaps in "Places"
-let FillInGaps = false
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {

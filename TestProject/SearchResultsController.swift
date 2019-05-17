@@ -32,16 +32,19 @@ extension SearchResultsController: UITableViewDataSource, UITableViewDelegate {
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "SearchResultCell", for: indexPath) as! SearchResultTableViewCell
-        //cell.textLabel?.text = self.searchResults[indexPath.row].name
+        
         let place = self.searchResults[indexPath.row]
+        //Sets the text boxes in each cell to each google Place information
         cell.nameLabel.text = place.name
-       // cell.nameLabel.textContain
-        //cell.nameLabel.font = cell.nameLabel.font.withSize(20)
         cell.addressLabel.text = place.address
         cell.priceLabel.text = place.priceLevel != nil ? self.priceLabels[place.priceLevel!] : "?"
         cell.ratingLabel.text = place.rating != nil ? String(place.rating!) : "(none)"
         cell.placeImageView.image = place.photo
+        
+        //Scales image size for clean icon
         cell.placeImageView.image = place.photo?.scaleImage(toSize: CGSize.init(width: 120.0, height: 120.0))
+        
+        //Border of cells
         cell.layer.borderColor = UIColor(red: 249.0/255.0, green: 156.0/255.0, blue: 8.0/255.0, alpha: 1.0).cgColor
         cell.layer.borderWidth = 0.7
         
@@ -50,6 +53,7 @@ extension SearchResultsController: UITableViewDataSource, UITableViewDelegate {
     
 }
 
+//Extension to scale the title images received for each place from the Google Places API into the same 120X120 sizes to match as consistent icons
 extension UIImage {
     func scaleImage(toSize newSize: CGSize) -> UIImage? {
         var newImage: UIImage?
