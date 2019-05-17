@@ -1,0 +1,1535 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		1AD73B07D0A43E21F0EE0F993215B9D8 /* GooglePlaces */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 2FC2AC47FDB0310285CE777F18CD1532 /* Build configuration list for PBXAggregateTarget "GooglePlaces" */;
+			buildPhases = (
+			);
+			dependencies = (
+				D42315111F400C0605ACCD6B5CAF2178 /* PBXTargetDependency */,
+			);
+			name = GooglePlaces;
+			productName = GooglePlaces;
+		};
+		BCE3DE68053C99B18AAD56BE1F98BD73 /* GoogleMaps */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 46921981F609C5BA3CB72EC4EA41299D /* Build configuration list for PBXAggregateTarget "GoogleMaps" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = GoogleMaps;
+			productName = GoogleMaps;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		0633715E954C89E08E903E1E0B477929 /* Pods-TestProject-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F046B6653F1FEA3CD8B94F61902C82E0 /* Pods-TestProject-dummy.m */; };
+		066DFF3E763EA395B9C74A0D9C7F33C5 /* YLPClient+PhoneSearch.m in Sources */ = {isa = PBXBuildFile; fileRef = 9016203449701375B5E71F9CB55E1DE0 /* YLPClient+PhoneSearch.m */; };
+		10135F99FB67A3B4061C378DA57CAD5F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		102EB4B18ADB265BD3E973712D8008F0 /* YelpAPI-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2713D0D543B9F469CDD686DEA36FB4D9 /* YelpAPI-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		11571EA0C339D449AD1AE79FE60D5FEB /* YLPBusiness.h in Headers */ = {isa = PBXBuildFile; fileRef = 56DB79CED6C2A8871E818782E6F2E1EE /* YLPBusiness.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		116C1AD973763B5BF3CB5EF9C96B0343 /* YLPSearch.m in Sources */ = {isa = PBXBuildFile; fileRef = A2986947FE88F68D530B93DC9F369133 /* YLPSearch.m */; };
+		12FAB2A4FABBC9AA036126ED97AC4CA4 /* YLPClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 820A6C7F454352A59E0E20D38CA0488B /* YLPClient.m */; };
+		1863979AD7CB7C91C13ABEE8355EC414 /* YLPClient+Reviews.h in Headers */ = {isa = PBXBuildFile; fileRef = 03BAC6C3B0A0D152B96951E97C9A2E3D /* YLPClient+Reviews.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		19B5208A6DA97DD8886222B4B47F5148 /* YLPClient+Search.h in Headers */ = {isa = PBXBuildFile; fileRef = 040D0D62A7CDEB9F1CBF4BE2AC51430B /* YLPClient+Search.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1A16AF038134713367E47C774EBAA59A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		24E2AE97C5ADF1CC790C51B6F03013E0 /* Pods-TestProjectUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CDFD947836E9CA86AFD99D12B512BB38 /* Pods-TestProjectUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		251E91A94166E8329F2B6CF0766B5985 /* YLPBusiness.m in Sources */ = {isa = PBXBuildFile; fileRef = C4A93BE492FDDEE5DA81FFD75EEBC041 /* YLPBusiness.m */; };
+		3BBCBD93B117CAB2CE5A52ACE80EE648 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		3CD38EA68C9ECF84BE341953190C9B33 /* YLPResponsePrivate.h in Headers */ = {isa = PBXBuildFile; fileRef = 726DEA34DFC6F5BEC3B268ED28DCC356 /* YLPResponsePrivate.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		3D2BA3A25AE5BA9043493F7DC7E28DA7 /* YLPQuery.h in Headers */ = {isa = PBXBuildFile; fileRef = 83B2C6912091F262E51F0FD28A1CD09F /* YLPQuery.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3DC2523FAD40A187F40FEB6504D200F0 /* YLPClient+Business.m in Sources */ = {isa = PBXBuildFile; fileRef = E279FEECD4B5ED63F34CE3884C0C7AFE /* YLPClient+Business.m */; };
+		42E6CBA67309E8B1A6E22BD2B17101A1 /* YelpAPI-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A47D31FFBFA59AEC4807C93EC0BAF1E0 /* YelpAPI-dummy.m */; };
+		444A165B537C3C277CB1EF20084ACD02 /* Pods-TestProjectTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B12B59ACDAE8FE8A57269F317EE6C6D /* Pods-TestProjectTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		453DB317D5DF66B22D8824A5AEED9B8F /* YelpAPI.h in Headers */ = {isa = PBXBuildFile; fileRef = 93AE6FD2FFA46858B215F914B74BE27E /* YelpAPI.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4756A8AAADAB3EE4724143C530E943BD /* YLPClient+Reviews.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D45D240C719D9F02A7F843EA4BF9273 /* YLPClient+Reviews.m */; };
+		4BADAD9FC9A459641F440CCB9E9582FF /* YLPCoordinate.m in Sources */ = {isa = PBXBuildFile; fileRef = CFA4C4F4EDDD2D8C1FD981B8A46CA6C5 /* YLPCoordinate.m */; };
+		56AA3A55B5DB8E4A5C494DFE587A730F /* YLPLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = F341FCA2569A462FDF56F89DB21AB890 /* YLPLocation.m */; };
+		6EE3E09EFA49C6FE6D6140A12301AEB9 /* Pods-TestProject-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BBF986D520E8F7CF0824CC2343892322 /* Pods-TestProject-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		74CFFBC21243A0FF7DB80A830C9B5467 /* YLPClientPrivate.h in Headers */ = {isa = PBXBuildFile; fileRef = 89B207C510E9B5BC77BFFA28D6F0D7CB /* YLPClientPrivate.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		805CEE867E57C219CC5DECFF68FCAB1A /* YLPReview.m in Sources */ = {isa = PBXBuildFile; fileRef = B09B7AC3F963D169D516BC80282245C3 /* YLPReview.m */; };
+		88342666CA2AB9921FB9379FE75D6979 /* YLPBusinessReviews.m in Sources */ = {isa = PBXBuildFile; fileRef = 33A10008FE261490DBE8D1C61854B8AB /* YLPBusinessReviews.m */; };
+		8A54E639AD0129A86EE31A2D0D9E6167 /* YLPQueryPrivate.h in Headers */ = {isa = PBXBuildFile; fileRef = 3260BA80EF1CC79734203B6EB43DBFBE /* YLPQueryPrivate.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		8BCE938A4EC749679DAEE56B219A2C09 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		8F635E604F06B8E51B234656FEE8FF78 /* Pods-TestProjectUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 083F3A19AB5A53C6926893E2CF4A3198 /* Pods-TestProjectUITests-dummy.m */; };
+		90C5772236F8F1786D4633BDF5029181 /* YLPQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = 306141B094D796CEF3D387D67E127077 /* YLPQuery.m */; };
+		9DF72EAF10B871AFA2AA4167A07FBDF1 /* YLPBusinessReviews.h in Headers */ = {isa = PBXBuildFile; fileRef = 72257D392538B2F28E9CB53F5EF185E0 /* YLPBusinessReviews.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AD5F062FA9DA2F0B265B2E4A0E333F59 /* YLPClient+PhoneSearch.h in Headers */ = {isa = PBXBuildFile; fileRef = B102423CF71F8D305317FD297989955D /* YLPClient+PhoneSearch.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B45DDF4F9D5DD8BD8082E6F6958F3B89 /* YLPClient.h in Headers */ = {isa = PBXBuildFile; fileRef = 0DFF72FD64E22CEB39D1695C531A3825 /* YLPClient.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B86E4367C6682267975F90F24591260B /* YLPUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 851DBA05EBC7338535C7D9DF0BA2C44B /* YLPUser.m */; };
+		BACD046E5A70CE901EE388706CA90527 /* YLPCoordinate.h in Headers */ = {isa = PBXBuildFile; fileRef = FD8E75DEE44FDF72CAB4A4B54FBB9C0D /* YLPCoordinate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C06CCF3C4CE939D903F5731996EA1860 /* Pods-TestProjectTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E93F1A3237F5F5E584E0970AEAAF8C47 /* Pods-TestProjectTests-dummy.m */; };
+		C30EF3CFD350F5907CDECDF3FCD9F92D /* YLPLocation.h in Headers */ = {isa = PBXBuildFile; fileRef = C45B5285447033ABAE86E3038F23BE00 /* YLPLocation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C50D6C9AFA972646FADD7721D14CB81C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		C51D8B65D203223752DA9A8AF9BA2922 /* YLPCategory.h in Headers */ = {isa = PBXBuildFile; fileRef = D425C32FA508FADEB854A6D72B27DD71 /* YLPCategory.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C7C8D76CE7F58B5B194F1E6316C04379 /* YLPUser.h in Headers */ = {isa = PBXBuildFile; fileRef = 606425B6DCFD569E155444F2292225B0 /* YLPUser.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C8777C16D8B55EAF40A78B4907987457 /* SwiftyJSON-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 128CA6478980CB3042B9BFA5E9736253 /* SwiftyJSON-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C96BA37F15AC9AB418488DBF66F4D317 /* YLPSortType.h in Headers */ = {isa = PBXBuildFile; fileRef = 3C23EAF7B33A5FEFF81CBAEFE970CBCC /* YLPSortType.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DCAFDD1800127EAABE3FD163BBA6FF99 /* NSDictionary+YLPUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C31FD96A1EEFFEC1EF15B9F08C3A3EE /* NSDictionary+YLPUtils.m */; };
+		DE553F4C71C212BF14C85890A83EA72B /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C5BD93BAB71E35152588D9BBFF55C4A /* SwiftyJSON.swift */; };
+		E3FBBBEEF876E15D99FCA69F82AB59EF /* YLPSearch.h in Headers */ = {isa = PBXBuildFile; fileRef = D91F1BD9432C0876ACA1F476A0883F4C /* YLPSearch.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E4373A6B3B5271491A37B4459E640F70 /* YLPCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 92B3E2CC7D4963BEB1C2CC4C9FC4F30B /* YLPCategory.m */; };
+		E5744CCD724E45C3E7AC0DD5FFB4979A /* SwiftyJSON-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = ABD1CAEEB81816809B1722675B55B863 /* SwiftyJSON-dummy.m */; };
+		E5E37DA5DC885541871D98E97BED5B62 /* YLPClient+Business.h in Headers */ = {isa = PBXBuildFile; fileRef = 53CE5ED1F6A13548BAD3E86DBA3B832A /* YLPClient+Business.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F98CB12DDA0EC7389E30C84446567058 /* YLPClient+Search.m in Sources */ = {isa = PBXBuildFile; fileRef = FC3C03DBCADBEC0E24ADCE8FC75B4FA4 /* YLPClient+Search.m */; };
+		FE771581C98605E9B8C900BEED7A41E8 /* YLPReview.h in Headers */ = {isa = PBXBuildFile; fileRef = BAE242DEAA934B472C73D59F95C7593A /* YLPReview.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		01903C60E6DA3C2A5745D344F8AB33AF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1AD73B07D0A43E21F0EE0F993215B9D8;
+			remoteInfo = GooglePlaces;
+		};
+		3A069D280C99D7E61060987541AD36F3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BCE3DE68053C99B18AAD56BE1F98BD73;
+			remoteInfo = GoogleMaps;
+		};
+		497810ABD14A95F1051DA6C8C5AF80D7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC10D20F9782152BDED91B6450FE77EB;
+			remoteInfo = SwiftyJSON;
+		};
+		6EB1C2DD30E6564FC3135C9E8002D8F7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BCE3DE68053C99B18AAD56BE1F98BD73;
+			remoteInfo = GoogleMaps;
+		};
+		900E4407D363D63DA0F7F537356D7A81 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D65ADB71F6A0DBC89C0BAF7D9411DCB2;
+			remoteInfo = "Pods-TestProject";
+		};
+		A8FAB373688331A43748A570232FB6F0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3CEB4F18B6558F2B1A6D86DF350DFF87;
+			remoteInfo = YelpAPI;
+		};
+		EE7502AFB8CFCEAB78C06285DC9E3E03 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D65ADB71F6A0DBC89C0BAF7D9411DCB2;
+			remoteInfo = "Pods-TestProject";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		03BAC6C3B0A0D152B96951E97C9A2E3D /* YLPClient+Reviews.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "YLPClient+Reviews.h"; path = "Classes/Client/YLPClient+Reviews.h"; sourceTree = "<group>"; };
+		040D0D62A7CDEB9F1CBF4BE2AC51430B /* YLPClient+Search.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "YLPClient+Search.h"; path = "Classes/Client/YLPClient+Search.h"; sourceTree = "<group>"; };
+		083F3A19AB5A53C6926893E2CF4A3198 /* Pods-TestProjectUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TestProjectUITests-dummy.m"; sourceTree = "<group>"; };
+		0C5BD93BAB71E35152588D9BBFF55C4A /* SwiftyJSON.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftyJSON.swift; path = Source/SwiftyJSON/SwiftyJSON.swift; sourceTree = "<group>"; };
+		0CE0E42EFFD4D0C8CA3BFD69CCD44A6D /* YelpAPI.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YelpAPI.xcconfig; sourceTree = "<group>"; };
+		0DFF72FD64E22CEB39D1695C531A3825 /* YLPClient.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YLPClient.h; path = Classes/Client/YLPClient.h; sourceTree = "<group>"; };
+		128CA6478980CB3042B9BFA5E9736253 /* SwiftyJSON-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyJSON-umbrella.h"; sourceTree = "<group>"; };
+		155362A2A6B03579932856E95828FCDA /* YelpAPI-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YelpAPI-prefix.pch"; sourceTree = "<group>"; };
+		219C0DADBB804D60F9462F3869F7F7EB /* YelpAPI-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "YelpAPI-Info.plist"; sourceTree = "<group>"; };
+		2713D0D543B9F469CDD686DEA36FB4D9 /* YelpAPI-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YelpAPI-umbrella.h"; sourceTree = "<group>"; };
+		283E5B7A3C9124A6B9177A76B671CE60 /* YelpAPI.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = YelpAPI.modulemap; sourceTree = "<group>"; };
+		2DC6C3C0FC5C5633F0F588F17F9D3CC4 /* GoogleMaps.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GoogleMaps.xcconfig; sourceTree = "<group>"; };
+		306141B094D796CEF3D387D67E127077 /* YLPQuery.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YLPQuery.m; path = Classes/Request/YLPQuery.m; sourceTree = "<group>"; };
+		3260BA80EF1CC79734203B6EB43DBFBE /* YLPQueryPrivate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YLPQueryPrivate.h; path = Classes/Request/YLPQueryPrivate.h; sourceTree = "<group>"; };
+		33A10008FE261490DBE8D1C61854B8AB /* YLPBusinessReviews.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YLPBusinessReviews.m; path = Classes/Response/YLPBusinessReviews.m; sourceTree = "<group>"; };
+		3A9ECF4FFFBE40D86E198D011549A389 /* GoogleMapsBase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMapsBase.framework; path = Base/Frameworks/GoogleMapsBase.framework; sourceTree = "<group>"; };
+		3C23EAF7B33A5FEFF81CBAEFE970CBCC /* YLPSortType.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YLPSortType.h; path = Classes/Request/YLPSortType.h; sourceTree = "<group>"; };
+		4311CC325B33A3E2AF7843C5A4E2A4A0 /* Pods_TestProjectTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TestProjectTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A6B6FB11FD0AFB5F57687775EED6D8A /* Pods-TestProjectTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TestProjectTests.debug.xcconfig"; sourceTree = "<group>"; };
+		4D45D240C719D9F02A7F843EA4BF9273 /* YLPClient+Reviews.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "YLPClient+Reviews.m"; path = "Classes/Client/YLPClient+Reviews.m"; sourceTree = "<group>"; };
+		50734D139EB72D6862723737577ABE75 /* Pods-TestProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TestProject.release.xcconfig"; sourceTree = "<group>"; };
+		5337781279202FB086880B5B10B40F7D /* GoogleMaps.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMaps.framework; path = Maps/Frameworks/GoogleMaps.framework; sourceTree = "<group>"; };
+		53CE5ED1F6A13548BAD3E86DBA3B832A /* YLPClient+Business.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "YLPClient+Business.h"; path = "Classes/Client/YLPClient+Business.h"; sourceTree = "<group>"; };
+		56DB79CED6C2A8871E818782E6F2E1EE /* YLPBusiness.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YLPBusiness.h; path = Classes/Response/YLPBusiness.h; sourceTree = "<group>"; };
+		579D8E5A3FEE32CAAD77FB85E0BDEFB4 /* Pods-TestProjectTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TestProjectTests.release.xcconfig"; sourceTree = "<group>"; };
+		5BA9D8385A542AA86CFEB17741210581 /* GooglePlaces.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = GooglePlaces.bundle; path = Frameworks/GooglePlaces.framework/Resources/GooglePlaces.bundle; sourceTree = "<group>"; };
+		5D51A9191CC4A5E37F962F3CD3B81D96 /* Pods-TestProject-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TestProject-acknowledgements.markdown"; sourceTree = "<group>"; };
+		5EBF26F4CDF17867B854C4DA8A83745E /* Pods-TestProjectTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TestProjectTests-Info.plist"; sourceTree = "<group>"; };
+		606425B6DCFD569E155444F2292225B0 /* YLPUser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YLPUser.h; path = Classes/Response/YLPUser.h; sourceTree = "<group>"; };
+		6684D578B8AE3117ADBD3F252DC45E6D /* Pods-TestProject-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TestProject-frameworks.sh"; sourceTree = "<group>"; };
+		6C31FD96A1EEFFEC1EF15B9F08C3A3EE /* NSDictionary+YLPUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSDictionary+YLPUtils.m"; path = "Classes/Response/NSDictionary+YLPUtils.m"; sourceTree = "<group>"; };
+		6FF82891ADBA051121BA318B76552790 /* Pods-TestProject-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TestProject-acknowledgements.plist"; sourceTree = "<group>"; };
+		719B6FB7DA16233AE1F819F5AFF5FBA9 /* SwiftyJSON.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftyJSON.xcconfig; sourceTree = "<group>"; };
+		72257D392538B2F28E9CB53F5EF185E0 /* YLPBusinessReviews.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YLPBusinessReviews.h; path = Classes/Response/YLPBusinessReviews.h; sourceTree = "<group>"; };
+		726DEA34DFC6F5BEC3B268ED28DCC356 /* YLPResponsePrivate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YLPResponsePrivate.h; path = Classes/Response/YLPResponsePrivate.h; sourceTree = "<group>"; };
+		744B4575E9BA90F9948A7F77AE359ED8 /* Pods-TestProjectUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TestProjectUITests-Info.plist"; sourceTree = "<group>"; };
+		778B90FE2E82AA7976DC2F850CFCE790 /* Pods-TestProjectUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TestProjectUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		7B12B59ACDAE8FE8A57269F317EE6C6D /* Pods-TestProjectTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TestProjectTests-umbrella.h"; sourceTree = "<group>"; };
+		7CDF2FBF7E74FC6F485BB677159FB3AA /* GoogleMapsCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMapsCore.framework; path = Maps/Frameworks/GoogleMapsCore.framework; sourceTree = "<group>"; };
+		820A6C7F454352A59E0E20D38CA0488B /* YLPClient.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YLPClient.m; path = Classes/Client/YLPClient.m; sourceTree = "<group>"; };
+		83B2C6912091F262E51F0FD28A1CD09F /* YLPQuery.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YLPQuery.h; path = Classes/Request/YLPQuery.h; sourceTree = "<group>"; };
+		851DBA05EBC7338535C7D9DF0BA2C44B /* YLPUser.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YLPUser.m; path = Classes/Response/YLPUser.m; sourceTree = "<group>"; };
+		89B207C510E9B5BC77BFFA28D6F0D7CB /* YLPClientPrivate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YLPClientPrivate.h; path = Classes/Client/YLPClientPrivate.h; sourceTree = "<group>"; };
+		8C90686C18B2C2F63612A5EAE78CA8C8 /* Pods-TestProjectUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TestProjectUITests.release.xcconfig"; sourceTree = "<group>"; };
+		8E9B30A272FF061F41906CF448CF8A33 /* Pods-TestProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TestProject.debug.xcconfig"; sourceTree = "<group>"; };
+		9016203449701375B5E71F9CB55E1DE0 /* YLPClient+PhoneSearch.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "YLPClient+PhoneSearch.m"; path = "Classes/Client/YLPClient+PhoneSearch.m"; sourceTree = "<group>"; };
+		923E804C6EB5B0864F7B774AC67E007A /* Pods-TestProjectTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TestProjectTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		92B3E2CC7D4963BEB1C2CC4C9FC4F30B /* YLPCategory.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YLPCategory.m; path = Classes/Response/YLPCategory.m; sourceTree = "<group>"; };
+		93AE6FD2FFA46858B215F914B74BE27E /* YelpAPI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YelpAPI.h; path = Classes/YelpAPI.h; sourceTree = "<group>"; };
+		9440A1987C9023AA26C6F844A1C66A90 /* SwiftyJSON-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SwiftyJSON-Info.plist"; sourceTree = "<group>"; };
+		94FEB97CD929983677EE72BC2018333B /* Pods-TestProject-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TestProject-resources.sh"; sourceTree = "<group>"; };
+		98F5BC03933C2376098B1921B76D8612 /* Pods-TestProjectUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TestProjectUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		9A6C452DE4624BDD21796D27156D258A /* GooglePlaces.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GooglePlaces.framework; path = Frameworks/GooglePlaces.framework; sourceTree = "<group>"; };
+		9C9FC99F9DEF2E4B43927A065AA96E3D /* Pods-TestProjectUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TestProjectUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A2986947FE88F68D530B93DC9F369133 /* YLPSearch.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YLPSearch.m; path = Classes/Response/YLPSearch.m; sourceTree = "<group>"; };
+		A47D31FFBFA59AEC4807C93EC0BAF1E0 /* YelpAPI-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "YelpAPI-dummy.m"; sourceTree = "<group>"; };
+		A740CD1866F8ADDE62EFFBD34DCA0D88 /* SwiftyJSON.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftyJSON.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABD1CAEEB81816809B1722675B55B863 /* SwiftyJSON-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftyJSON-dummy.m"; sourceTree = "<group>"; };
+		B09B7AC3F963D169D516BC80282245C3 /* YLPReview.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YLPReview.m; path = Classes/Response/YLPReview.m; sourceTree = "<group>"; };
+		B102423CF71F8D305317FD297989955D /* YLPClient+PhoneSearch.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "YLPClient+PhoneSearch.h"; path = "Classes/Client/YLPClient+PhoneSearch.h"; sourceTree = "<group>"; };
+		B5B03AB8E99737BD9E77D42CD01A2365 /* GoogleMaps.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = GoogleMaps.bundle; path = Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle; sourceTree = "<group>"; };
+		B726A62D102066B580EC8F4A0A02843C /* YelpAPI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = YelpAPI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BAE242DEAA934B472C73D59F95C7593A /* YLPReview.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YLPReview.h; path = Classes/Response/YLPReview.h; sourceTree = "<group>"; };
+		BBF986D520E8F7CF0824CC2343892322 /* Pods-TestProject-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TestProject-umbrella.h"; sourceTree = "<group>"; };
+		C45B5285447033ABAE86E3038F23BE00 /* YLPLocation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YLPLocation.h; path = Classes/Response/YLPLocation.h; sourceTree = "<group>"; };
+		C4A93BE492FDDEE5DA81FFD75EEBC041 /* YLPBusiness.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YLPBusiness.m; path = Classes/Response/YLPBusiness.m; sourceTree = "<group>"; };
+		CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		CCBD337EF42379B5E0D09719F72CD3D4 /* Pods-TestProjectUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TestProjectUITests.modulemap"; sourceTree = "<group>"; };
+		CD077F47F9F1CE22EE69C85AD8C834A4 /* Pods_TestProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TestProject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDFD947836E9CA86AFD99D12B512BB38 /* Pods-TestProjectUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TestProjectUITests-umbrella.h"; sourceTree = "<group>"; };
+		CFA4C4F4EDDD2D8C1FD981B8A46CA6C5 /* YLPCoordinate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YLPCoordinate.m; path = Classes/Common/YLPCoordinate.m; sourceTree = "<group>"; };
+		D425C32FA508FADEB854A6D72B27DD71 /* YLPCategory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YLPCategory.h; path = Classes/Response/YLPCategory.h; sourceTree = "<group>"; };
+		D91F1BD9432C0876ACA1F476A0883F4C /* YLPSearch.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YLPSearch.h; path = Classes/Response/YLPSearch.h; sourceTree = "<group>"; };
+		DCABEE35FC9AF6E39E1AAA92A97477D4 /* SwiftyJSON-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyJSON-prefix.pch"; sourceTree = "<group>"; };
+		DD4572B8EA290CF8BA98E3348F993036 /* Pods_TestProjectUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TestProjectUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E279FEECD4B5ED63F34CE3884C0C7AFE /* YLPClient+Business.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "YLPClient+Business.m"; path = "Classes/Client/YLPClient+Business.m"; sourceTree = "<group>"; };
+		E4CEE9B45CEDD19CB7E86FF2917BFB03 /* GooglePlaces.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GooglePlaces.xcconfig; sourceTree = "<group>"; };
+		E5F3724D2EF536C937AB6FCC6FF16870 /* Pods-TestProject.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TestProject.modulemap"; sourceTree = "<group>"; };
+		E7D84FDF520AA804189AC4D5E69131CE /* Pods-TestProject-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TestProject-Info.plist"; sourceTree = "<group>"; };
+		E93F1A3237F5F5E584E0970AEAAF8C47 /* Pods-TestProjectTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TestProjectTests-dummy.m"; sourceTree = "<group>"; };
+		F046B6653F1FEA3CD8B94F61902C82E0 /* Pods-TestProject-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TestProject-dummy.m"; sourceTree = "<group>"; };
+		F341FCA2569A462FDF56F89DB21AB890 /* YLPLocation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YLPLocation.m; path = Classes/Response/YLPLocation.m; sourceTree = "<group>"; };
+		F55A8799AB7FCAE92BF50164CBF7AB3C /* Pods-TestProjectTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TestProjectTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F5C247F1D7044D81B12995ECE97FF1C8 /* Pods-TestProjectTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TestProjectTests.modulemap"; sourceTree = "<group>"; };
+		FC3C03DBCADBEC0E24ADCE8FC75B4FA4 /* YLPClient+Search.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "YLPClient+Search.m"; path = "Classes/Client/YLPClient+Search.m"; sourceTree = "<group>"; };
+		FD8E75DEE44FDF72CAB4A4B54FBB9C0D /* YLPCoordinate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YLPCoordinate.h; path = Classes/Common/YLPCoordinate.h; sourceTree = "<group>"; };
+		FDA7D71501D2CA31991E0AD9FC5F3DA8 /* SwiftyJSON.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SwiftyJSON.modulemap; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0C47AECA8769395C46664D77D0208751 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BCE938A4EC749679DAEE56B219A2C09 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A050E68EAE992922E54F3FED0D99DBE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10135F99FB67A3B4061C378DA57CAD5F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84C372C4571BE59107B40FB335856AF3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A16AF038134713367E47C774EBAA59A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E21B512C65133F55D32EE2F10A93064D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BBCBD93B117CAB2CE5A52ACE80EE648 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F498E2BEA538A556B443CD6A24663B60 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C50D6C9AFA972646FADD7721D14CB81C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		14E0DBF130635CC349B5F0F651B6C43C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CD077F47F9F1CE22EE69C85AD8C834A4 /* Pods_TestProject.framework */,
+				4311CC325B33A3E2AF7843C5A4E2A4A0 /* Pods_TestProjectTests.framework */,
+				DD4572B8EA290CF8BA98E3348F993036 /* Pods_TestProjectUITests.framework */,
+				A740CD1866F8ADDE62EFFBD34DCA0D88 /* SwiftyJSON.framework */,
+				B726A62D102066B580EC8F4A0A02843C /* YelpAPI.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		206AD09D78CCA3B6CEACB63936268ECF /* Pods-TestProjectUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CCBD337EF42379B5E0D09719F72CD3D4 /* Pods-TestProjectUITests.modulemap */,
+				98F5BC03933C2376098B1921B76D8612 /* Pods-TestProjectUITests-acknowledgements.markdown */,
+				9C9FC99F9DEF2E4B43927A065AA96E3D /* Pods-TestProjectUITests-acknowledgements.plist */,
+				083F3A19AB5A53C6926893E2CF4A3198 /* Pods-TestProjectUITests-dummy.m */,
+				744B4575E9BA90F9948A7F77AE359ED8 /* Pods-TestProjectUITests-Info.plist */,
+				CDFD947836E9CA86AFD99D12B512BB38 /* Pods-TestProjectUITests-umbrella.h */,
+				778B90FE2E82AA7976DC2F850CFCE790 /* Pods-TestProjectUITests.debug.xcconfig */,
+				8C90686C18B2C2F63612A5EAE78CA8C8 /* Pods-TestProjectUITests.release.xcconfig */,
+			);
+			name = "Pods-TestProjectUITests";
+			path = "Target Support Files/Pods-TestProjectUITests";
+			sourceTree = "<group>";
+		};
+		3466B8863932A8814B345E87C708EA22 /* Maps */ = {
+			isa = PBXGroup;
+			children = (
+				507D85C19CCEEBB54F6803851287BC34 /* Frameworks */,
+				674E9B40CBB2BC4A6AC52722D3CDEF56 /* Resources */,
+			);
+			name = Maps;
+			sourceTree = "<group>";
+		};
+		34F73D2632704A5DAADC08198B290ED5 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9C1E86779201A3DA883DB1494C17291F /* Pods-TestProject */,
+				854328DBB5A4070C61CFC4429BC4FD4B /* Pods-TestProjectTests */,
+				206AD09D78CCA3B6CEACB63936268ECF /* Pods-TestProjectUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		4F48B5E3D61AE52DEE2A203F269288E5 /* GooglePlaces */ = {
+			isa = PBXGroup;
+			children = (
+				89AEE2991754CA57EF58240E3E370C7C /* Frameworks */,
+				F9C6D9BC1F65BD5AC2C9A64424DC4DA9 /* Resources */,
+				A4BE868454D342CFE5C518B40ABC8B9A /* Support Files */,
+			);
+			path = GooglePlaces;
+			sourceTree = "<group>";
+		};
+		507D85C19CCEEBB54F6803851287BC34 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5337781279202FB086880B5B10B40F7D /* GoogleMaps.framework */,
+				7CDF2FBF7E74FC6F485BB677159FB3AA /* GoogleMapsCore.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		674E9B40CBB2BC4A6AC52722D3CDEF56 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B5B03AB8E99737BD9E77D42CD01A2365 /* GoogleMaps.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		685A4B4E14C9AB9A50F3A238433519EB /* SwiftyJSON */ = {
+			isa = PBXGroup;
+			children = (
+				0C5BD93BAB71E35152588D9BBFF55C4A /* SwiftyJSON.swift */,
+				6F81C300C5FDE1C0385E7329B2E7125D /* Support Files */,
+			);
+			path = SwiftyJSON;
+			sourceTree = "<group>";
+		};
+		6F81C300C5FDE1C0385E7329B2E7125D /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				FDA7D71501D2CA31991E0AD9FC5F3DA8 /* SwiftyJSON.modulemap */,
+				719B6FB7DA16233AE1F819F5AFF5FBA9 /* SwiftyJSON.xcconfig */,
+				ABD1CAEEB81816809B1722675B55B863 /* SwiftyJSON-dummy.m */,
+				9440A1987C9023AA26C6F844A1C66A90 /* SwiftyJSON-Info.plist */,
+				DCABEE35FC9AF6E39E1AAA92A97477D4 /* SwiftyJSON-prefix.pch */,
+				128CA6478980CB3042B9BFA5E9736253 /* SwiftyJSON-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SwiftyJSON";
+			sourceTree = "<group>";
+		};
+		854328DBB5A4070C61CFC4429BC4FD4B /* Pods-TestProjectTests */ = {
+			isa = PBXGroup;
+			children = (
+				F5C247F1D7044D81B12995ECE97FF1C8 /* Pods-TestProjectTests.modulemap */,
+				F55A8799AB7FCAE92BF50164CBF7AB3C /* Pods-TestProjectTests-acknowledgements.markdown */,
+				923E804C6EB5B0864F7B774AC67E007A /* Pods-TestProjectTests-acknowledgements.plist */,
+				E93F1A3237F5F5E584E0970AEAAF8C47 /* Pods-TestProjectTests-dummy.m */,
+				5EBF26F4CDF17867B854C4DA8A83745E /* Pods-TestProjectTests-Info.plist */,
+				7B12B59ACDAE8FE8A57269F317EE6C6D /* Pods-TestProjectTests-umbrella.h */,
+				4A6B6FB11FD0AFB5F57687775EED6D8A /* Pods-TestProjectTests.debug.xcconfig */,
+				579D8E5A3FEE32CAAD77FB85E0BDEFB4 /* Pods-TestProjectTests.release.xcconfig */,
+			);
+			name = "Pods-TestProjectTests";
+			path = "Target Support Files/Pods-TestProjectTests";
+			sourceTree = "<group>";
+		};
+		89AEE2991754CA57EF58240E3E370C7C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9A6C452DE4624BDD21796D27156D258A /* GooglePlaces.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9B055D0CFEA43187E72B03DED11F5662 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		9C1E86779201A3DA883DB1494C17291F /* Pods-TestProject */ = {
+			isa = PBXGroup;
+			children = (
+				E5F3724D2EF536C937AB6FCC6FF16870 /* Pods-TestProject.modulemap */,
+				5D51A9191CC4A5E37F962F3CD3B81D96 /* Pods-TestProject-acknowledgements.markdown */,
+				6FF82891ADBA051121BA318B76552790 /* Pods-TestProject-acknowledgements.plist */,
+				F046B6653F1FEA3CD8B94F61902C82E0 /* Pods-TestProject-dummy.m */,
+				6684D578B8AE3117ADBD3F252DC45E6D /* Pods-TestProject-frameworks.sh */,
+				E7D84FDF520AA804189AC4D5E69131CE /* Pods-TestProject-Info.plist */,
+				94FEB97CD929983677EE72BC2018333B /* Pods-TestProject-resources.sh */,
+				BBF986D520E8F7CF0824CC2343892322 /* Pods-TestProject-umbrella.h */,
+				8E9B30A272FF061F41906CF448CF8A33 /* Pods-TestProject.debug.xcconfig */,
+				50734D139EB72D6862723737577ABE75 /* Pods-TestProject.release.xcconfig */,
+			);
+			name = "Pods-TestProject";
+			path = "Target Support Files/Pods-TestProject";
+			sourceTree = "<group>";
+		};
+		A4BE868454D342CFE5C518B40ABC8B9A /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E4CEE9B45CEDD19CB7E86FF2917BFB03 /* GooglePlaces.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/GooglePlaces";
+			sourceTree = "<group>";
+		};
+		A56147DE7CD2BC535F8373C4DD54056E /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				283E5B7A3C9124A6B9177A76B671CE60 /* YelpAPI.modulemap */,
+				0CE0E42EFFD4D0C8CA3BFD69CCD44A6D /* YelpAPI.xcconfig */,
+				A47D31FFBFA59AEC4807C93EC0BAF1E0 /* YelpAPI-dummy.m */,
+				219C0DADBB804D60F9462F3869F7F7EB /* YelpAPI-Info.plist */,
+				155362A2A6B03579932856E95828FCDA /* YelpAPI-prefix.pch */,
+				2713D0D543B9F469CDD686DEA36FB4D9 /* YelpAPI-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/YelpAPI";
+			sourceTree = "<group>";
+		};
+		A90F4DDFD023702F6AC9D732ABD094F4 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				D99014EF728C87DD69414E38BF38B278 /* Frameworks */,
+			);
+			name = Base;
+			sourceTree = "<group>";
+		};
+		CD52B63310B1E42334F8210542AFEA81 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FC6CC408ADC3F1E7467A45F8FA0DEADE /* GoogleMaps */,
+				4F48B5E3D61AE52DEE2A203F269288E5 /* GooglePlaces */,
+				685A4B4E14C9AB9A50F3A238433519EB /* SwiftyJSON */,
+				FC0556E64A47839BD8FA2CFDC15D49FA /* YelpAPI */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				CD52B63310B1E42334F8210542AFEA81 /* Pods */,
+				14E0DBF130635CC349B5F0F651B6C43C /* Products */,
+				34F73D2632704A5DAADC08198B290ED5 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9B055D0CFEA43187E72B03DED11F5662 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D99014EF728C87DD69414E38BF38B278 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3A9ECF4FFFBE40D86E198D011549A389 /* GoogleMapsBase.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DD15BD154F999D6A4B377A59B4D87632 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2DC6C3C0FC5C5633F0F588F17F9D3CC4 /* GoogleMaps.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/GoogleMaps";
+			sourceTree = "<group>";
+		};
+		F9C6D9BC1F65BD5AC2C9A64424DC4DA9 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				5BA9D8385A542AA86CFEB17741210581 /* GooglePlaces.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		FC0556E64A47839BD8FA2CFDC15D49FA /* YelpAPI */ = {
+			isa = PBXGroup;
+			children = (
+				6C31FD96A1EEFFEC1EF15B9F08C3A3EE /* NSDictionary+YLPUtils.m */,
+				93AE6FD2FFA46858B215F914B74BE27E /* YelpAPI.h */,
+				56DB79CED6C2A8871E818782E6F2E1EE /* YLPBusiness.h */,
+				C4A93BE492FDDEE5DA81FFD75EEBC041 /* YLPBusiness.m */,
+				72257D392538B2F28E9CB53F5EF185E0 /* YLPBusinessReviews.h */,
+				33A10008FE261490DBE8D1C61854B8AB /* YLPBusinessReviews.m */,
+				D425C32FA508FADEB854A6D72B27DD71 /* YLPCategory.h */,
+				92B3E2CC7D4963BEB1C2CC4C9FC4F30B /* YLPCategory.m */,
+				0DFF72FD64E22CEB39D1695C531A3825 /* YLPClient.h */,
+				820A6C7F454352A59E0E20D38CA0488B /* YLPClient.m */,
+				53CE5ED1F6A13548BAD3E86DBA3B832A /* YLPClient+Business.h */,
+				E279FEECD4B5ED63F34CE3884C0C7AFE /* YLPClient+Business.m */,
+				B102423CF71F8D305317FD297989955D /* YLPClient+PhoneSearch.h */,
+				9016203449701375B5E71F9CB55E1DE0 /* YLPClient+PhoneSearch.m */,
+				03BAC6C3B0A0D152B96951E97C9A2E3D /* YLPClient+Reviews.h */,
+				4D45D240C719D9F02A7F843EA4BF9273 /* YLPClient+Reviews.m */,
+				040D0D62A7CDEB9F1CBF4BE2AC51430B /* YLPClient+Search.h */,
+				FC3C03DBCADBEC0E24ADCE8FC75B4FA4 /* YLPClient+Search.m */,
+				89B207C510E9B5BC77BFFA28D6F0D7CB /* YLPClientPrivate.h */,
+				FD8E75DEE44FDF72CAB4A4B54FBB9C0D /* YLPCoordinate.h */,
+				CFA4C4F4EDDD2D8C1FD981B8A46CA6C5 /* YLPCoordinate.m */,
+				C45B5285447033ABAE86E3038F23BE00 /* YLPLocation.h */,
+				F341FCA2569A462FDF56F89DB21AB890 /* YLPLocation.m */,
+				83B2C6912091F262E51F0FD28A1CD09F /* YLPQuery.h */,
+				306141B094D796CEF3D387D67E127077 /* YLPQuery.m */,
+				3260BA80EF1CC79734203B6EB43DBFBE /* YLPQueryPrivate.h */,
+				726DEA34DFC6F5BEC3B268ED28DCC356 /* YLPResponsePrivate.h */,
+				BAE242DEAA934B472C73D59F95C7593A /* YLPReview.h */,
+				B09B7AC3F963D169D516BC80282245C3 /* YLPReview.m */,
+				D91F1BD9432C0876ACA1F476A0883F4C /* YLPSearch.h */,
+				A2986947FE88F68D530B93DC9F369133 /* YLPSearch.m */,
+				3C23EAF7B33A5FEFF81CBAEFE970CBCC /* YLPSortType.h */,
+				606425B6DCFD569E155444F2292225B0 /* YLPUser.h */,
+				851DBA05EBC7338535C7D9DF0BA2C44B /* YLPUser.m */,
+				A56147DE7CD2BC535F8373C4DD54056E /* Support Files */,
+			);
+			path = YelpAPI;
+			sourceTree = "<group>";
+		};
+		FC6CC408ADC3F1E7467A45F8FA0DEADE /* GoogleMaps */ = {
+			isa = PBXGroup;
+			children = (
+				A90F4DDFD023702F6AC9D732ABD094F4 /* Base */,
+				3466B8863932A8814B345E87C708EA22 /* Maps */,
+				DD15BD154F999D6A4B377A59B4D87632 /* Support Files */,
+			);
+			path = GoogleMaps;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		4FB1687266443D388F347D982AB0B7E2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8777C16D8B55EAF40A78B4907987457 /* SwiftyJSON-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		777EBA788544CDA6CD9BE2186DA5767C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				444A165B537C3C277CB1EF20084ACD02 /* Pods-TestProjectTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		89EDC06C76148335A4ADDC212F68B9B2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24E2AE97C5ADF1CC790C51B6F03013E0 /* Pods-TestProjectUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		993243D3017CF7D6C1D216BEEE5AE9FE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				102EB4B18ADB265BD3E973712D8008F0 /* YelpAPI-umbrella.h in Headers */,
+				453DB317D5DF66B22D8824A5AEED9B8F /* YelpAPI.h in Headers */,
+				11571EA0C339D449AD1AE79FE60D5FEB /* YLPBusiness.h in Headers */,
+				9DF72EAF10B871AFA2AA4167A07FBDF1 /* YLPBusinessReviews.h in Headers */,
+				C51D8B65D203223752DA9A8AF9BA2922 /* YLPCategory.h in Headers */,
+				E5E37DA5DC885541871D98E97BED5B62 /* YLPClient+Business.h in Headers */,
+				AD5F062FA9DA2F0B265B2E4A0E333F59 /* YLPClient+PhoneSearch.h in Headers */,
+				1863979AD7CB7C91C13ABEE8355EC414 /* YLPClient+Reviews.h in Headers */,
+				19B5208A6DA97DD8886222B4B47F5148 /* YLPClient+Search.h in Headers */,
+				B45DDF4F9D5DD8BD8082E6F6958F3B89 /* YLPClient.h in Headers */,
+				74CFFBC21243A0FF7DB80A830C9B5467 /* YLPClientPrivate.h in Headers */,
+				BACD046E5A70CE901EE388706CA90527 /* YLPCoordinate.h in Headers */,
+				C30EF3CFD350F5907CDECDF3FCD9F92D /* YLPLocation.h in Headers */,
+				3D2BA3A25AE5BA9043493F7DC7E28DA7 /* YLPQuery.h in Headers */,
+				8A54E639AD0129A86EE31A2D0D9E6167 /* YLPQueryPrivate.h in Headers */,
+				3CD38EA68C9ECF84BE341953190C9B33 /* YLPResponsePrivate.h in Headers */,
+				FE771581C98605E9B8C900BEED7A41E8 /* YLPReview.h in Headers */,
+				E3FBBBEEF876E15D99FCA69F82AB59EF /* YLPSearch.h in Headers */,
+				C96BA37F15AC9AB418488DBF66F4D317 /* YLPSortType.h in Headers */,
+				C7C8D76CE7F58B5B194F1E6316C04379 /* YLPUser.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD8E2804A9043DDD3F1A8BE5BFA9DE25 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6EE3E09EFA49C6FE6D6140A12301AEB9 /* Pods-TestProject-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		3CEB4F18B6558F2B1A6D86DF350DFF87 /* YelpAPI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D04CA89E22617DED2DBFF970292C05AC /* Build configuration list for PBXNativeTarget "YelpAPI" */;
+			buildPhases = (
+				993243D3017CF7D6C1D216BEEE5AE9FE /* Headers */,
+				096634DC8FBACD34DE867F627EA582BB /* Sources */,
+				84C372C4571BE59107B40FB335856AF3 /* Frameworks */,
+				7A2D3D7EFA03D51777B7B33C7405C916 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YelpAPI;
+			productName = YelpAPI;
+			productReference = B726A62D102066B580EC8F4A0A02843C /* YelpAPI.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		60AFEE2EC557DB82BCD979284B41C239 /* Pods-TestProjectTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F6CEE802FB718544C39CC1F5373AC24D /* Build configuration list for PBXNativeTarget "Pods-TestProjectTests" */;
+			buildPhases = (
+				777EBA788544CDA6CD9BE2186DA5767C /* Headers */,
+				26F9ED3A848C188CD9FEB4F2612FE2AE /* Sources */,
+				7A050E68EAE992922E54F3FED0D99DBE /* Frameworks */,
+				0B1085FE087C86BAD03BD693C360A27E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C77F6ADE63F7B4F365CF7B3CF1B92D70 /* PBXTargetDependency */,
+			);
+			name = "Pods-TestProjectTests";
+			productName = "Pods-TestProjectTests";
+			productReference = 4311CC325B33A3E2AF7843C5A4E2A4A0 /* Pods_TestProjectTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B79006240948CA24BEDB15F0EBAB62C6 /* Pods-TestProjectUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B78F5262FABAAFDD660C5E100DC25F27 /* Build configuration list for PBXNativeTarget "Pods-TestProjectUITests" */;
+			buildPhases = (
+				89EDC06C76148335A4ADDC212F68B9B2 /* Headers */,
+				88261BFDD951C7E50784E4FF8817E034 /* Sources */,
+				0C47AECA8769395C46664D77D0208751 /* Frameworks */,
+				234B6069666AF6990580F0CAD323CB07 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2DBA80C1D196271F7D02929F216917D7 /* PBXTargetDependency */,
+			);
+			name = "Pods-TestProjectUITests";
+			productName = "Pods-TestProjectUITests";
+			productReference = DD4572B8EA290CF8BA98E3348F993036 /* Pods_TestProjectUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D65ADB71F6A0DBC89C0BAF7D9411DCB2 /* Pods-TestProject */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AFAD18DED1A6E69A94569FF0DBC3BC41 /* Build configuration list for PBXNativeTarget "Pods-TestProject" */;
+			buildPhases = (
+				DD8E2804A9043DDD3F1A8BE5BFA9DE25 /* Headers */,
+				CB765928C78C7C4C88FBBE4BDF149A9D /* Sources */,
+				F498E2BEA538A556B443CD6A24663B60 /* Frameworks */,
+				ED54260DD57C40E7B0D06DF2296BC6F4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B906F80745C0B62E198DC13BBEC81AD6 /* PBXTargetDependency */,
+				C220DC65528BF73E5CD10F882D81DC71 /* PBXTargetDependency */,
+				7484957B7F333F2942F7A006602D3555 /* PBXTargetDependency */,
+				CECFAE35CD3144AFB684D4D70F7FCA93 /* PBXTargetDependency */,
+			);
+			name = "Pods-TestProject";
+			productName = "Pods-TestProject";
+			productReference = CD077F47F9F1CE22EE69C85AD8C834A4 /* Pods_TestProject.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		EC10D20F9782152BDED91B6450FE77EB /* SwiftyJSON */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 30AAE4D8E90A93364E8C2D2D6A715657 /* Build configuration list for PBXNativeTarget "SwiftyJSON" */;
+			buildPhases = (
+				4FB1687266443D388F347D982AB0B7E2 /* Headers */,
+				BE6AA1E2411279918E83915A19E086C7 /* Sources */,
+				E21B512C65133F55D32EE2F10A93064D /* Frameworks */,
+				0FF8788E784A8B41FB1399EDB4B79445 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftyJSON;
+			productName = SwiftyJSON;
+			productReference = A740CD1866F8ADDE62EFFBD34DCA0D88 /* SwiftyJSON.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 14E0DBF130635CC349B5F0F651B6C43C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BCE3DE68053C99B18AAD56BE1F98BD73 /* GoogleMaps */,
+				1AD73B07D0A43E21F0EE0F993215B9D8 /* GooglePlaces */,
+				D65ADB71F6A0DBC89C0BAF7D9411DCB2 /* Pods-TestProject */,
+				60AFEE2EC557DB82BCD979284B41C239 /* Pods-TestProjectTests */,
+				B79006240948CA24BEDB15F0EBAB62C6 /* Pods-TestProjectUITests */,
+				EC10D20F9782152BDED91B6450FE77EB /* SwiftyJSON */,
+				3CEB4F18B6558F2B1A6D86DF350DFF87 /* YelpAPI */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0B1085FE087C86BAD03BD693C360A27E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0FF8788E784A8B41FB1399EDB4B79445 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		234B6069666AF6990580F0CAD323CB07 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A2D3D7EFA03D51777B7B33C7405C916 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED54260DD57C40E7B0D06DF2296BC6F4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		096634DC8FBACD34DE867F627EA582BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCAFDD1800127EAABE3FD163BBA6FF99 /* NSDictionary+YLPUtils.m in Sources */,
+				42E6CBA67309E8B1A6E22BD2B17101A1 /* YelpAPI-dummy.m in Sources */,
+				251E91A94166E8329F2B6CF0766B5985 /* YLPBusiness.m in Sources */,
+				88342666CA2AB9921FB9379FE75D6979 /* YLPBusinessReviews.m in Sources */,
+				E4373A6B3B5271491A37B4459E640F70 /* YLPCategory.m in Sources */,
+				3DC2523FAD40A187F40FEB6504D200F0 /* YLPClient+Business.m in Sources */,
+				066DFF3E763EA395B9C74A0D9C7F33C5 /* YLPClient+PhoneSearch.m in Sources */,
+				4756A8AAADAB3EE4724143C530E943BD /* YLPClient+Reviews.m in Sources */,
+				F98CB12DDA0EC7389E30C84446567058 /* YLPClient+Search.m in Sources */,
+				12FAB2A4FABBC9AA036126ED97AC4CA4 /* YLPClient.m in Sources */,
+				4BADAD9FC9A459641F440CCB9E9582FF /* YLPCoordinate.m in Sources */,
+				56AA3A55B5DB8E4A5C494DFE587A730F /* YLPLocation.m in Sources */,
+				90C5772236F8F1786D4633BDF5029181 /* YLPQuery.m in Sources */,
+				805CEE867E57C219CC5DECFF68FCAB1A /* YLPReview.m in Sources */,
+				116C1AD973763B5BF3CB5EF9C96B0343 /* YLPSearch.m in Sources */,
+				B86E4367C6682267975F90F24591260B /* YLPUser.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26F9ED3A848C188CD9FEB4F2612FE2AE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C06CCF3C4CE939D903F5731996EA1860 /* Pods-TestProjectTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88261BFDD951C7E50784E4FF8817E034 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F635E604F06B8E51B234656FEE8FF78 /* Pods-TestProjectUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE6AA1E2411279918E83915A19E086C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E5744CCD724E45C3E7AC0DD5FFB4979A /* SwiftyJSON-dummy.m in Sources */,
+				DE553F4C71C212BF14C85890A83EA72B /* SwiftyJSON.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB765928C78C7C4C88FBBE4BDF149A9D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0633715E954C89E08E903E1E0B477929 /* Pods-TestProject-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2DBA80C1D196271F7D02929F216917D7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-TestProject";
+			target = D65ADB71F6A0DBC89C0BAF7D9411DCB2 /* Pods-TestProject */;
+			targetProxy = EE7502AFB8CFCEAB78C06285DC9E3E03 /* PBXContainerItemProxy */;
+		};
+		7484957B7F333F2942F7A006602D3555 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftyJSON;
+			target = EC10D20F9782152BDED91B6450FE77EB /* SwiftyJSON */;
+			targetProxy = 497810ABD14A95F1051DA6C8C5AF80D7 /* PBXContainerItemProxy */;
+		};
+		B906F80745C0B62E198DC13BBEC81AD6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GoogleMaps;
+			target = BCE3DE68053C99B18AAD56BE1F98BD73 /* GoogleMaps */;
+			targetProxy = 3A069D280C99D7E61060987541AD36F3 /* PBXContainerItemProxy */;
+		};
+		C220DC65528BF73E5CD10F882D81DC71 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GooglePlaces;
+			target = 1AD73B07D0A43E21F0EE0F993215B9D8 /* GooglePlaces */;
+			targetProxy = 01903C60E6DA3C2A5745D344F8AB33AF /* PBXContainerItemProxy */;
+		};
+		C77F6ADE63F7B4F365CF7B3CF1B92D70 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-TestProject";
+			target = D65ADB71F6A0DBC89C0BAF7D9411DCB2 /* Pods-TestProject */;
+			targetProxy = 900E4407D363D63DA0F7F537356D7A81 /* PBXContainerItemProxy */;
+		};
+		CECFAE35CD3144AFB684D4D70F7FCA93 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = YelpAPI;
+			target = 3CEB4F18B6558F2B1A6D86DF350DFF87 /* YelpAPI */;
+			targetProxy = A8FAB373688331A43748A570232FB6F0 /* PBXContainerItemProxy */;
+		};
+		D42315111F400C0605ACCD6B5CAF2178 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GoogleMaps;
+			target = BCE3DE68053C99B18AAD56BE1F98BD73 /* GoogleMaps */;
+			targetProxy = 6EB1C2DD30E6564FC3135C9E8002D8F7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0B3900CC3F9C90E86D9FBF924BD66CD6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 719B6FB7DA16233AE1F819F5AFF5FBA9 /* SwiftyJSON.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftyJSON/SwiftyJSON-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftyJSON/SwiftyJSON-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SwiftyJSON/SwiftyJSON.modulemap";
+				PRODUCT_MODULE_NAME = SwiftyJSON;
+				PRODUCT_NAME = SwiftyJSON;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		38E574D01C41E5512F3FBF5D170AC502 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 778B90FE2E82AA7976DC2F850CFCE790 /* Pods-TestProjectUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TestProjectUITests/Pods-TestProjectUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TestProjectUITests/Pods-TestProjectUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		42B6C924E8081591FB95447CE265D14A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 50734D139EB72D6862723737577ABE75 /* Pods-TestProject.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TestProject/Pods-TestProject-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TestProject/Pods-TestProject.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4AA46832D8A16AA4E4811383B204D2A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2DC6C3C0FC5C5633F0F588F17F9D3CC4 /* GoogleMaps.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		51AF0D334F58BC3D31F78CA2C5977B36 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4A6B6FB11FD0AFB5F57687775EED6D8A /* Pods-TestProjectTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TestProjectTests/Pods-TestProjectTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TestProjectTests/Pods-TestProjectTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		69D228768CAE42CABFE4C7C95DF44176 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0CE0E42EFFD4D0C8CA3BFD69CCD44A6D /* YelpAPI.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/YelpAPI/YelpAPI-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/YelpAPI/YelpAPI-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/YelpAPI/YelpAPI.modulemap";
+				PRODUCT_MODULE_NAME = YelpAPI;
+				PRODUCT_NAME = YelpAPI;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		907050E8ED96EF2CF04EC3D293E73BD9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E4CEE9B45CEDD19CB7E86FF2917BFB03 /* GooglePlaces.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A0F76C70048F521734C7AEABC02A0E9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 579D8E5A3FEE32CAAD77FB85E0BDEFB4 /* Pods-TestProjectTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TestProjectTests/Pods-TestProjectTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TestProjectTests/Pods-TestProjectTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A105C1752A0A49B30ED621B71E226CDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		A4648BA9319135E52C7364563594F737 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8E9B30A272FF061F41906CF448CF8A33 /* Pods-TestProject.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TestProject/Pods-TestProject-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TestProject/Pods-TestProject.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		BD9584B7C4023F0782389F6B4383B60C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8C90686C18B2C2F63612A5EAE78CA8C8 /* Pods-TestProjectUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TestProjectUITests/Pods-TestProjectUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TestProjectUITests/Pods-TestProjectUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C1391485F05B41BD35738A433056B7FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		C7565AEA7FCD8F66CAF546DC5AF1404F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2DC6C3C0FC5C5633F0F588F17F9D3CC4 /* GoogleMaps.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DC85D7712D8EE6E340F053BC38E1FB63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E4CEE9B45CEDD19CB7E86FF2917BFB03 /* GooglePlaces.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EF8A30A219E954EE1A4D59340E74F633 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 719B6FB7DA16233AE1F819F5AFF5FBA9 /* SwiftyJSON.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftyJSON/SwiftyJSON-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftyJSON/SwiftyJSON-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SwiftyJSON/SwiftyJSON.modulemap";
+				PRODUCT_MODULE_NAME = SwiftyJSON;
+				PRODUCT_NAME = SwiftyJSON;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F5169E22624710A259EDA5A357F85256 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0CE0E42EFFD4D0C8CA3BFD69CCD44A6D /* YelpAPI.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/YelpAPI/YelpAPI-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/YelpAPI/YelpAPI-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/YelpAPI/YelpAPI.modulemap";
+				PRODUCT_MODULE_NAME = YelpAPI;
+				PRODUCT_NAME = YelpAPI;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2FC2AC47FDB0310285CE777F18CD1532 /* Build configuration list for PBXAggregateTarget "GooglePlaces" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				907050E8ED96EF2CF04EC3D293E73BD9 /* Debug */,
+				DC85D7712D8EE6E340F053BC38E1FB63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		30AAE4D8E90A93364E8C2D2D6A715657 /* Build configuration list for PBXNativeTarget "SwiftyJSON" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF8A30A219E954EE1A4D59340E74F633 /* Debug */,
+				0B3900CC3F9C90E86D9FBF924BD66CD6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		46921981F609C5BA3CB72EC4EA41299D /* Build configuration list for PBXAggregateTarget "GoogleMaps" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4AA46832D8A16AA4E4811383B204D2A4 /* Debug */,
+				C7565AEA7FCD8F66CAF546DC5AF1404F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1391485F05B41BD35738A433056B7FA /* Debug */,
+				A105C1752A0A49B30ED621B71E226CDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AFAD18DED1A6E69A94569FF0DBC3BC41 /* Build configuration list for PBXNativeTarget "Pods-TestProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4648BA9319135E52C7364563594F737 /* Debug */,
+				42B6C924E8081591FB95447CE265D14A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B78F5262FABAAFDD660C5E100DC25F27 /* Build configuration list for PBXNativeTarget "Pods-TestProjectUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38E574D01C41E5512F3FBF5D170AC502 /* Debug */,
+				BD9584B7C4023F0782389F6B4383B60C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D04CA89E22617DED2DBFF970292C05AC /* Build configuration list for PBXNativeTarget "YelpAPI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5169E22624710A259EDA5A357F85256 /* Debug */,
+				69D228768CAE42CABFE4C7C95DF44176 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F6CEE802FB718544C39CC1F5373AC24D /* Build configuration list for PBXNativeTarget "Pods-TestProjectTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				51AF0D334F58BC3D31F78CA2C5977B36 /* Debug */,
+				A0F76C70048F521734C7AEABC02A0E9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
