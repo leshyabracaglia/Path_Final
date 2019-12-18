@@ -1,3 +1,3 @@
-# Path for iOS - Some sort of tag line
+# Path for iOS
 Path is a navigation application that helps busy users find restaurants, coffee shops, or bars on their way from one location to the next. On launch, the user is prompted to enter their starting address and ending address for their trip.  Path will then show them the fastest walking route, as well as choices for businesses to stop at own their way. The user can choose the category of business they are looking for at the bottom of the screen: a cafe to grab coffee on their way to work, a restaurant to catch lunch before their next meeting, or a bar to catch a drink on their way home. Once a category is chosen, the user can decide to view their options as pins along their route in map view, or in list view, where they can see the ratings, price, and address. This app utilizes the Google Maps API.
 
